@@ -63,12 +63,6 @@ This extension uses:
 
 - `tabs` permission to read the current active tab URL (for **SAVE TAB**)
 
-## Screenshots
-
-> Add screenshots here if you want:
-- Popup UI
-- Export page
-
 ## Future Improvements
 
 - Prevent duplicate links
