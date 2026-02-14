@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Leads Tracker</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div class="app">
+      <header class="header">
+        <div class="brand">
+          <div class="logo" aria-hidden="true">$</div>
+          <div class="brand-text">
+            <h1>Leads Tracker</h1>
+            <p>Save links fast. Export anytime.</p>
+          </div>
+        </div>
+      </header>
+
+      <main class="content">
+        <label class="label" for="input-el">Add a link</label>
+        <div class="input-row">
+          <input
+            type="text"
+            id="input-el"
+            placeholder="Paste a URL… (https://example.com)"
+            autocomplete="off"
+          />
+        </div>
+
+        <div class="actions">
+          <button id="input-btn" class="btn primary">SAVE INPUT</button>
+          <button id="tab-btn" class="btn primary">SAVE TAB</button>
+          <button id="export-btn" class="btn ghost">EXPORT PDF</button>
+          <button id="delete-btn" class="btn danger" title="Double-click to delete all">
+            DELETE ALL
+          </button>
+        </div>
+
+        <section class="list-card">
+          <div class="list-header">
+            <h2>Saved</h2>
+            <span id="count-el" class="count">0</span>
+          </div>
+          <ul id="ul-el" class="list"></ul>
+        </section>
+
+        <p class="hint">
+          Tip: Double-click <b>DELETE ALL</b> to clear everything.
+        </p>
+      </main>
+
+      <footer class="footer">
+        <span class="muted">Stored locally in your browser.</span>
+      </footer>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
