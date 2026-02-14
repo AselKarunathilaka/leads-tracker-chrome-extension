@@ -77,8 +77,5 @@ This extension uses:
 - Search / filter saved links
 - Sync using Chrome storage instead of `localStorage`
 
-## License
-
-This project is open-source. You may add an MIT License if you plan to share publicly.
 
 
